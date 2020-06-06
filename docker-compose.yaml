@@ -1,0 +1,6 @@
+  dynamic-dns-updater:
+    image: oznu/cloudflare-ddns:armhf
+    restart: always
+    env_file: 
+      - .env
+
